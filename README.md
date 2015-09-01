@@ -172,7 +172,7 @@ Assuming CocoaPods is installed, this will include the necessary OCMock dependen
 
 Due to SceneKit requiring iOS 8 and OS X 10.9, POP's SceneKit extensions aren't provided out of box. Unfortunately, [weakly linked frameworks](https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFrameworks/Concepts/WeakLinking.html) cannot be used due to issues mentioned in the [Xcode 6.1 Release Notes](https://developer.apple.com/library/ios/releasenotes/DeveloperTools/RN-Xcode/Chapters/xc6_release_notes.html).
 
-To remedy this, you can easily opt-in to use SceneKit! Simply add this to the Preprocessor Macros section of your Xcode Project: 
+To remedy this, you can easily opt-in to use SceneKit! Simply add this to the Preprocessor Macros section of your Xcode Project:
 
 ```
 POP_USE_SCENEKIT=1
@@ -184,9 +184,6 @@ A collection of links to external resources that may prove valuable:
 
 * [AGGeometryKit+POP - Animating Quadrilaterals with Pop](https://github.com/hfossli/aggeometrykit-pop)
 * [Apple – Core Animation Programming Guide](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CoreAnimation_guide/Introduction/Introduction.html)
-* [Codeplease – Bridging the gesture to animation gap](http://codeplease.io/playing-with-pop-ii/)
-* [Codeplease – Playing with Pop (iii)](http://codeplease.io/playing-with-pop-iii/)
-* [Codeplease – Adding a custom animatable property](http://codeplease.io/playing-with-pop-v/)
 * [iOS Development Tips – UIScrollView-like deceleration with Pop](http://iosdevtips.co/post/84571595353/replicating-uiscrollviews-deceleration-with-facebook)
 * [Pop Playground – Repository of Pop animation examples](https://github.com/callmeed/pop-playground)
 * [Pop Playground 2 – Playing with Facebook's framework](http://victorbaro.com/2014/05/pop-playground-playing-with-facebooks-framework/)
@@ -196,6 +193,7 @@ A collection of links to external resources that may prove valuable:
 * [Tapity Tutorial – Getting Started with Pop](http://tapity.com/tutorial-getting-started-with-pop/)
 * [Tweaks – Easily adjust parameters for iOS apps in development](https://github.com/facebook/tweaks)
 * [POP Tutorial in 5 steps](https://github.com/maxmyers/FacebookPop)
+* [VBFPopFlatButton – Flat animatable button, using Pop to transition between states](https://github.com/victorBaro/VBFPopFlatButton)
 
 ## Contributing
 See the CONTRIBUTING file for how to help out.
